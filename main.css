@@ -3,81 +3,21 @@ body {
   margin: 0;
   background-color: #eee;
 }
-.piano {
-  position: relative;
-  height: 100px;
-  width: 100%;
-  background-color: black;
-}
-.littleRedLine {
-  background-color: #9c0413;
-  color: #000;
-  height: 5px;
-  position: absolute;
-  top: 1px;
-  width: 100%;
-  z-index: 100;
-}
-.octave {
-  position: relative;
-  float: left;
-}
-.key {
-  cursor: pointer;
-}
-.white {
-  width: 20px;
-  height: 95px;
-  background-color: #f4f4f4;
-  border: 1px solid #626262;
-  position: relative;
-  float: left;
-  border-radius: 0 0 5px 5px;
-  box-shadow: 0 -3px 1px 0 #838383 inset, 0 -60px 40px 10px #eeeeee inset;
-}
-.black {
-  width: 5px;
-  height: 65px;
-  background-color: #000;
-  border-bottom: 2px solid #000;
-  border-left: 2px solid #000;
-  border-right: 2px solid #000;
-  position: absolute;
-  top: 6px;
-  z-index: 100;
-  border-radius: 0 0 2px 2px;
-  box-shadow: 0 -2px 1px 9px #303030 inset, 0 -15px #f7f7f7 inset;
-}
-.flats :nth-child(1) {
-  margin-left: 16.5px;
-}
-.flats :nth-child(2) {
-  margin-left: 38.5px;
-}
-.flats :nth-child(3) {
-  margin-left: 82.5px;
-}
-.flats :nth-child(4) {
-  margin-left: 104.5px;
-}
-.flats :nth-child(5) {
-  margin-left: 126.5px;
-}
 .pad {
   padding: 5px;
 }
-#info {
+.pad-info {
   margin-left: 500px;
   padding-left: 20px;
   font-family: 'Helvetica Neue', Helvetica;
   color: #555;
 }
 
-#synth-pad {
+.synth-pad {
   float: left;
   border-radius: 3px;
   background: #1e1e1e url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAIUlEQVQYV2P8+vWrJAMRgBGkkJub+zkhtaMK8YYQ0cEDABxGJwNr5yClAAAAAElFTkSuQmCC);
 }
-#synth-pad:hover {
+.synth-pad:hover {
   cursor: crosshair;
 }

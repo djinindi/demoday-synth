@@ -4,11 +4,12 @@
   "description": "demodag synth",
   "main": "index.js",
   "scripts": {
+    "start": "electron index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
-  "devDependencies": {
-    "electron-prebuilt": "^1.0.2"
+  "dependencies": {
+    "electron": "^1.6.11"
   }
 }
